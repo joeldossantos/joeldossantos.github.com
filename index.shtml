@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" >
+
+<head>
+	<meta name="google-site-verification" content="H5gh6EHHbK-v2SC0MCzafOA4xFHw9oT4ga66s8J0jIg" />
+	<title> :: Joel dos Santos :: </title>
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+</head>
+
+<body>
+	<div id="titulo">Joel <spam>dos</spam> Santos</div>
+	<div id="fundo">
+
+
+		<div id="info"></div>
+
+
+	</div>
+	<div id="rodape">
+		<a id="bcont" href=""><img src="images/contatos.png" alt="Contatos" title="Contatos"/></a>
+		<a href="http://lattes.cnpq.br/2355504392772411" target="_blank"><img src="images/lattes.png" alt="Lattes" title="Curr&iacute;culo Lattes"/></a>
+		<a id="bpost" href=""><img src="images/posts.png" alt="Blogs" title="Posts em Blogs"/></a>
+		<a id="bprof" href=""><img src="images/profissional.png" alt="Profissional" title="Profissional"/></a>
+		<a href="http://www.midiacom.uff.br/~joel/publicacoes.php" target="_blank"><img src="images/publicacoes.png" alt="Publicacoes" title="Publica&ccedil;&otilde;es"/></a>
+		<a id="bproj" href=""><img src="images/projetos.png" alt="Projetos" title="Projetos"/></a>
+	</div>
+
+</body>
+
+</html>

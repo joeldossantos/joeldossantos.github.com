@@ -1,0 +1,110 @@
+img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	border: none;
+	color: rgb(68,68,68);
+}
+
+a:visited {
+	color: rgb(68,68,68);
+}
+
+/*----- page areas -----*/
+body, #fundo, #titulo{
+	margin: 0;
+	padding: 0;
+	border: 1px none;
+}
+
+body {
+	background-image: url(../images/fundo.jpg);
+	text-align: center;
+}
+
+#titulo {
+	margin: 0 auto;
+	margin-top: 5%;
+	width: 707px;
+	height: 35px;
+	
+	text-align: left;
+	font-size: 25px;
+	font-family: DejaVu Sans;
+	font-weight: bold;
+	color: rgb(123,148,140);
+}
+
+#titulo spam {
+    font-size: 18px;
+}
+
+#fundo {
+	margin: 0 auto;
+	width: 677px;
+	height: 234px;
+	background-image: url(../images/caixa.png);	
+	padding: 30px;
+	
+	text-align: justify;
+	font-size: 16px;
+	font-family: DejaVu Sans;
+	color: rgb(68,68,68);
+}
+
+#contato .col img {
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+#contato .col div {
+position: relative;
+	margin-top: 12px;
+	margin-left: 45px;
+}
+
+#profissional img {
+	margin-right: 30px;
+}
+
+#col1 {
+	float: left;
+}
+
+#col2 {
+	margin-left: 300px;
+}
+
+#info {
+	margin-top: 100px;
+}
+
+#rodape {
+	position: relative;
+	margin: 0 auto;
+	width: 737px;
+	height: 70px;
+	
+	text-align: right;
+	font-size: 12px;
+	font-family: verdana;
+	font-weight: bold;
+	color: rgb(255,255,255);
+}
+
+#rodape img {
+	margin-top: 10px;
+	margin-right: 10px;
+	width: 50px;
+	height: 50px;
+}
+
+#rodape img:hover {
+    margin-top: 6px;
+	margin-right: 6px;
+	width: 54px;
+	height: 54px;
+}
