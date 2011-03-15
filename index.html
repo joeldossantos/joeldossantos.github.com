@@ -7,6 +7,20 @@
 	<title> :: Joel dos Santos :: </title>
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+	<script type="text/javascript" src="javascripts/jquery.js"></script>
+	<script type="text/javascript" src="javascripts/actions.js"></script>
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-19665706-1']);
+		_gaq.push(['_trackPageview']);
+		
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </head>
 
 <body>
@@ -15,6 +29,18 @@
 
 
 		<div id="info"></div>
+		
+		<!-- parte de contatos -->
+		<!--#include virtual="contatos.html" -->
+		
+		<!-- parte de posts -->
+		<!--#include virtual="posts.html" -->
+		
+		<!-- parte profissioanl do site -->
+		<!--#include virtual="profissional.html" -->
+		
+		<!-- parte projetos -->
+		<!--#include virtual="projetos.html" -->
 
 
 	</div>
