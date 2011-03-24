@@ -1,67 +1,47 @@
 $(document).ready(function() {
-	hideAll();
-	$("#contato").fadeIn("slow");
+	$("#fundo").append(contatos).fadeIn("slow");
 	
 	// Contact button
 	$("#bcont").click(function(e) {
 		e.preventDefault();
 		
-		hideAll();
+		$("#fundo").empty();
+		$("#fundo").append(contatos).fadeIn("slow");
 		
-		$("#contato").fadeIn("slow");
-	});
-	
-	// Posts button
-	$("#bpost").click(function(e) {
-		e.preventDefault();
-		
-		hideAll();
-		
-		$("#posts").fadeIn("slow");
+		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Contatos']);
 	});
 	
 	// Professional button
 	$("#bprof").click(function(e) {
 		e.preventDefault();
 		
-		hideAll();
+		$("#fundo").empty();
+		$("#fundo").append(profissional).fadeIn("slow");
 		
-		$("#profissional").fadeIn("slow");
-	});
-	
-	// Peta5 posts subpage
-	$("#postsPeta").click(function(e) {
-		e.preventDefault();
-		
-		hideAll();
-		
-		$("#blog_peta").fadeIn("slow");
-	});
-	
-	// Rafael Carvalho posts subpage
-	$("#postsRC").click(function(e) {
-		e.preventDefault();
-		
-		hideAll();
-		
-		$("#blog_rafael").fadeIn("slow");
+		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Profissional']);
 	});
 	
 	// Projects button
 	$("#bproj").click(function(e) {
 		e.preventDefault();
 		
-		hideAll();
+		$("#fundo").empty();
+		$("#fundo").append(projetos).fadeIn("slow");
 		
-		$("#projetos").fadeIn("slow");
+		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Projetos']);
 	});
 	
-	function hideAll() {
-		$("#info").hide();
-		$("#contato").hide();
-		$("#posts").hide();
-		$("#profissional").hide();
-		$("#projetos").hide();
-		$(".listas").hide();
-	}
+	// Track External links
+	$(".external").click(function(e) {
+		var dest = $(this).attr('href');
+		
+		_gaq.push(['_trackEvent', 'Externos', 'Click', dest]);
+	});
+	
+	// Track contact links
+	$(".contact").click(function(e) {
+		var dest = $(this).attr('href');
+		
+		_gaq.push(['_trackEvent', 'Contatos', 'Click', dest]);
+	});
 });
