@@ -5,7 +5,7 @@ categories: tutoriais
 ---
 
 
-h3. O que \é?
+h3. O que é?
 
 O GitHub é um ambiente para auxiliar o desenvolvimento distribuído de projetos de software. Ele trabalha com repositórios git, fornecendo uma interface para simplificar a distribuição de código, bem como a interação entre os desenvolvedores.
 
