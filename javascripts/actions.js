@@ -1,12 +1,12 @@
 $(document).ready(function() {
-	$("#fundo").append(contatos).fadeIn("slow");
+	$("#conteudo").append(contatos).fadeIn("slow");
 	
 	// Contact button
 	$("#bcont").click(function(e) {
 		e.preventDefault();
 		
-		$("#fundo").empty();
-		$("#fundo").append(contatos).fadeIn("slow");
+		$("#conteudo").empty();
+		$("#conteudo").append(contatos).fadeIn("slow");
 		
 		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Contatos']);
 	});
@@ -15,8 +15,8 @@ $(document).ready(function() {
 	$("#bprof").click(function(e) {
 		e.preventDefault();
 		
-		$("#fundo").empty();
-		$("#fundo").append(profissional).fadeIn("slow");
+		$("#conteudo").empty();
+		$("#conteudo").append(profissional).fadeIn("slow");
 		
 		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Profissional']);
 	});
@@ -25,10 +25,20 @@ $(document).ready(function() {
 	$("#bproj").click(function(e) {
 		e.preventDefault();
 		
-		$("#fundo").empty();
-		$("#fundo").append(projetos).fadeIn("slow");
+		$("#conteudo").empty();
+		$("#conteudo").append(projetos).fadeIn("slow");
 		
 		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Projetos']);
+	});
+
+	// Tutorials button
+	$("#btuto").click(function(e) {
+		e.preventDefault();
+		
+		$("#conteudo").empty();
+		$("#conteudo").append(tutoriais).fadeIn("slow");
+		
+		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Tutoriais']);
 	});
 	
 	// Track External links

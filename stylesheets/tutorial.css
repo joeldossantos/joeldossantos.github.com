@@ -1,0 +1,48 @@
+#cabecalho {
+	display: table;
+	width: 600px;
+}
+
+#cabecalho h2 {
+	float: left;
+}
+
+#cabecalho p {
+	margin-top: 20px;
+}
+
+#conteudo p {
+	font-size: 14px;
+}
+
+#conteudo pre {
+	border: 1px solid #ddd;
+	background-color: #eef;
+	padding: 0 .4em;
+}
+
+#conteudo ul,
+#conteudo ol {
+	margin-left: 1.35em;
+}
+
+#conteudo code {
+	border: 1px solid #ddd;
+	background-color: #eef;
+	font-size: 85%;
+	padding: 0 .2em;
+}
+
+#conteudo pre code {
+	border: none;
+}
+
+#conteudo pre.terminal {
+	border: 1px solid black;
+	background-color: #333;
+	color: white;
+}
+
+#conteudo pre.terminal code {
+	background-color: #333;
+}
