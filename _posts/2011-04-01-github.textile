@@ -1,0 +1,61 @@
+---
+layout: post
+title: GitHub
+categories: tutoriais
+---
+
+
+h3. O que \é?
+
+O GitHub é um ambiente para auxiliar o desenvolvimento distribuído de projetos de software. Ele trabalha com repositórios git, fornecendo uma interface para simplificar a distribuição de código, bem como a interação entre os desenvolvedores.
+
+h4. Primeiro passo.
+
+*Criando uma conta no GitHub:*
+
+# Entre no site do "GitHub":http://www.github.com
+# Entre em "pricing and signup" (canto superior direito)
+# Clique em "create free account"
+<p>*obs.:* como a Flávia e o Wagner já estava colaborando antes de o repositório ser migrado para o GitHub, é interessante criar uma conta com os mesmos dados</p>
+# Depois de criada a conta entre em "account settings" e coloque seu nome
+# Configure sua chave ssh ("link para o tutorial do site":http://help.github.com/linux-set-up-git/#_set_up_ssh_keys)
+
+
+h4. Segundo Passo.
+
+*Colaborando:*
+
+Todos os repositórios disponíveis no GitHub tem acesso público de leitura. A escrita só é permitida ao dono do repositório. Essa configuração é feita de forma a impedir que modificações feitas por uma pessoa qualquer possam "estragar" o que o dono do repositório está fazendo.
+
+Para que os usuários colaborem uns com os outros, o GitHub usa o conceito de "forks". Um "fork" é uma cópia de um repositório para a conta do usuário, permitindo que esse tenha acesso de escrita (enviar modificações). Essas modificações ficam guardadas em seu repositório (o da sua conta) e não no repositório original.
+
+Para que as modificações sejam também aplicadas ao repositório origianl, os usuários devem fazer um "Pull Request", que nada mais é do que a indicação ao dono do repositório original que existe uma modificação que pode ser aplicada ao repositório original.
+
+Seguem abaixo os passos para colaboração.
+
+# Entre na página da api (www.github.com/joeldossantos/aNa)
+# Nos botões acima das informações da api, clique em "Fork"
+!http://help.github.com/images/bootcamp/bootcamp_3_fork.jpg!
+p. você será redirecionado para a sua conta, onde aparecerá uma cópia do repositório.
+# Instale o git no seu computador
+# Configure o git no seu computador
+## configure seu nome
+<pre class="terminal">@$ git config --global user.name "Firstname Lastname"@</pre>
+## configure seu email
+<pre class="terminal">@$ git config --global user.email "your_email@youremail.com"@</pre>
+# Entre na pasta onde você deseja trabalhar com seu repositório 
+# Inicie o git dentro dessa pasta
+<pre class="terminal">@$ git init@</pre>
+# Adicione o endereço do repositório no GitHub
+<pre class="terminal">@$git remote add origin XXX@</pre>
+<p>onde XXX é o endereço que aparece pra você no local indicado pela figura abaixo</p>
+<img src="http://img.skitch.com/20100201-e6dmj54pgmw6wq7314jtbej31k.jpg" width="550px"/>
+# Baixe o código para o seu computador
+<pre class="terminal">@$ git pull origin master@</pre>
+# Trabalhe a vontade
+# Faça commits
+<pre class="terminal">@$git commit -am 'texto do commit'@</pre>
+# Envie as modificações para o GitHub
+<pre class="terminal">@$git push origin master@</pre>
+# Depois de ter feito modificações substanciais faça um "Pull Request"
+<p>mais informações em ("tutorial sobre pull request":http://help.github.com/pull-requests/#initiating_the_pull_request)</p>
