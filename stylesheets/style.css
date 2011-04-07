@@ -5,11 +5,11 @@ img {
 a {
 	text-decoration: none;
 	border: none;
-	color: rgb(68,68,68);
+	color: rgb(84,127,148);
 }
 
 a:visited {
-	color: rgb(68,68,68);
+	color: rgb(84,127,148);
 }
 
 /*----- page areas -----*/
