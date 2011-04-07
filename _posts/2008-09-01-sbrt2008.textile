@@ -1,0 +1,14 @@
+---
+title: 'RummiTV: An Interactive Game for the Brazilian Digital TV System'
+layout: publication
+categories: publicacoes
+---
+
+
+h3. RummiTV: An Interactive Game for the Brazilian Digital TV System
+
+*Autores*: Joel dos Santos, Erick Ratamero, João Paulo Arruda, Manoel Dantas, Maria Luiza Sanchez, Débora C. M. Saade
+*Evento*: XXVI Simpósio Brasileiro de Telecomunicações - SBrT 2008
+*Data*: 09.2008
+*Idioma*: Inglês
+"(download)Download":link

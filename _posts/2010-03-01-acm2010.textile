@@ -1,0 +1,14 @@
+---
+title: 'XTemplate 3.0: Adding Semantics to Hypermedia Compositions and Providing Document Structure Reuse'
+layout: publication
+categories: publicacoes
+---
+
+
+h3. XTemplate 3.0: Adding Semantics to Hypermedia Compositions and Providing Document Structure Reuse
+
+*Autores*: Joel dos Santos, Débora C. M. Saade
+*Evento*: 2010 ACM Symposium on Applied Computing - ACM SAC 2010
+*Data*: 03.2010
+*Idioma*: Inglês
+"(download)Download":link

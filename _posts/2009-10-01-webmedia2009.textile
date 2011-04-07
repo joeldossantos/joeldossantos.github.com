@@ -1,0 +1,14 @@
+---
+title: 'Linguagem XTemplate 3.0: Facilitando a Autoria de Programas NCL para TV Digital Interativa'
+layout: publication
+categories: publicacoes
+---
+
+
+h3. Linguagem XTemplate 3.0: Facilitando a Autoria de Programas NCL para TV Digital Interativa
+
+*Autores*: Joel dos Santos, Débora C. M. Saade
+*Evento*: XV Simpósio Brasileiro de Sistemas Multimídia e Web - WebMedia 2009
+*Data*: 10.2009
+*Idioma*: Português
+"(download)Download":link

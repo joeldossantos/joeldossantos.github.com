@@ -41,6 +41,16 @@ $(document).ready(function() {
 		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Tutoriais']);
 	});
 	
+	// Publications button
+	$("#bpub").click(function(e) {
+		e.preventDefault();
+		
+		$("#conteudo").empty();
+		$("#conteudo").append(publicacoes).fadeIn("slow");
+		
+		_gaq.push(['_trackEvent', 'Botoes', 'Click', 'Publicacoes']);
+	});
+	
 	// Track External links
 	$(".external").click(function(e) {
 		var dest = $(this).attr('href');
@@ -53,5 +63,19 @@ $(document).ready(function() {
 		var dest = $(this).attr('href');
 		
 		_gaq.push(['_trackEvent', 'Contatos', 'Click', dest]);
+	});
+	
+	// Track Tutorial links
+	$(".tutorial").click(function(e) {
+		var dest = $(this).attr('href');
+		
+		_gaq.push(['_trackEvent', 'Tutoriais', 'Click', dest]);
+	});
+	
+	// Track Download links
+	$(".download").click(function(e) {
+		var dest = $(this).attr('href');
+		
+		_gaq.push(['_trackEvent', 'Downloads', 'Click', dest]);
 	});
 });
