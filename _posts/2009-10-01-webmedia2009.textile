@@ -11,4 +11,4 @@ h3. Linguagem XTemplate 3.0: Facilitando a Autoria de Programas NCL para TV Digi
 *Evento*: XV Simpósio Brasileiro de Sistemas Multimídia e Web - WebMedia 2009
 *Data*: 10.2009
 *Idioma*: Português
-"(download)Download":link
+"(download)Download":http://www.midiacom.uff.br/~joel/down/santos_2009_linguagem_xtemplate_30_facilitando_a_autoria_de_programas_ncl_para_tv_digital_interativa.pdf

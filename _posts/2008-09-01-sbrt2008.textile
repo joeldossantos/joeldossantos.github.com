@@ -11,4 +11,4 @@ h3. RummiTV: An Interactive Game for the Brazilian Digital TV System
 *Evento*: XXVI Simpósio Brasileiro de Telecomunicações - SBrT 2008
 *Data*: 09.2008
 *Idioma*: Inglês
-"(download)Download":link
+"(download)Download":http://www.midiacom.uff.br/~joel/down/santos_2008_rummitv_interactive_game_for_the_brazilian_digital_tv_system.pdf

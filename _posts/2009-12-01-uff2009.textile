@@ -13,4 +13,4 @@ h3. XTemplate 3.0: Adicionando Semântica a Composições e Fornecendo Reúso de
 *Universidade*: Universidade Federal Fluminense
 *Data*: 12.2009
 *Idioma*: Português
-"(download)Download":link
+"(download)Download":http://www.midiacom.uff.br/~joel/down/santos_2009_xtemplate_30_adicionando_semantica_a_composicoes_hipermidia_e_fornecendo_reuso_de_estruturas_de_documentos_hipermidia.pdf
