@@ -19,6 +19,7 @@
 	border: 1px solid #ddd;
 	background-color: #eef;
 	padding: 0 .4em;
+	font-size: 85%;
 }
 
 #conteudo ul,
@@ -34,6 +35,8 @@
 }
 
 #conteudo pre code {
+	background-color: #eef;
+	padding: 0 .2em;
 	border: none;
 }
 

@@ -48,19 +48,21 @@ h4. Importando Bases
 
 A especificação das bases de conectores a serem importadas é feita através do elemento _connectorBase_, este possui como filhos elementos _importBase_.
 
-<code>
+<pre><code>
 <connectorBase>
 	<importBase alias="connBase" documentURI="connectorbase.ncl"/>
 </connectorBase>
-</code>
+
+</code></pre>
 
 A especificação das definições de apresentação (bases de regiões, descritores e regras) a serem importadas é feita através do elemento _descriptorBase_, possuindo este elementos _importBase_ como filhos.
 
-<code>
+<pre><code>
 <descriptorBase>
 	<importBase alias="presBase" documentURI="descriptorbase.ncl"/>
 </descriptorBase>
-</code>
+
+</code></pre>
 
 A importação é feita desta forma pois em NCL, um documento _A_ que importe a base de descritores de _B_, importa também as bases de regiões e regras de _B_, caso _B_ as tenha definido. Logo a linguagem XTemplate tira proveito dessa funcionalidade de forma a definir como o *ncl* deverá apresentar as mídias nele contidas.
   
@@ -101,14 +103,15 @@ O elemento _port_ possui os seguintes atributos:
 * *minOccurs* - número mínimo de ocorrências;
 * *maxOccurs* - número máximo.
 
-<code>
+<pre><code>
 <component xlabel="subtitleSWITCH" type="switch">
 	<component xlabel="subtitlePT" type="text/html"
 				descriptor="presBase#d_legenda" maxOccurs="1"/>
 	<component xlabel="subtitleEN" type="text/html"
 				descriptor="presBase#d_legenda" maxOccurs="1"/>
 </component>
-</code>
+
+</code></pre>
 
 O exemplo acima mostra a especificação de um elemento _switch_. Vale ressaltar que só são definidor os elementos filhos do switch (legendas). As regras a serem utilizadas ficam especificadas no próprio _switch_ em sua especificação no corpo do template como será visto posteriormente.
 
@@ -155,14 +158,15 @@ O elemento _switch_ define uma instância do vocabulário, permitindo que o *tem
 
 O _switch_ define de forma direta, as regras que serão usadas através do elemento _bindRule_. Sá poderão ser definidos um número de _bindRule_ igual ao número de filhos (do elemento _component_) definido no vocabulário. O exemplo abaixo demonstra a utilização do _switch_.
 
-<code>
+<pre><code>
 <switch id="subtitle" xlabel="subtitleSWITCH">
 	<bindRule rule="presBase#rPT" constituent="subtitlePT"
-				select="child::media[@xlabel='subtitlePT'][position() = 1]"/>
+			select="child::media[@xlabel='subtitlePT'][position() = 1]"/>
 	<bindRule rule="presBase#rEN" constituent="subtitleEN"
-				select="child::media[@xlabel='subtitleEN'][position() = 1]"/>
+			select="child::media[@xlabel='subtitleEN'][position() = 1]"/>
 </switch>
-</code>
+
+</code></pre>
 
 Pode-se notar que o elemento _bindRule_ define o componente ao qual se relaciona pelo atributo _constituent_, referenciando o rótulo apropriado. O switch pode então definir dentro dele os elementos que este usará (estes contendo o rótulo apropriado) ou especificar uma expressão XPath através de seu atributo _select_.
 
@@ -184,12 +188,13 @@ Os _bind_s do _link_ identificarão os papéis (assim como em NCL) e o(s) elemen
 
 O exemplo abaixo demonstra a utilização do _link_.
 
-<code>
+<pre><code>
 <link xtype="L">
 	<bind role="onBegin" select="child::media[@xlabel='audio']"/>
 	<bind role="start" select="child::media[@xlabel='logo']"/>
 </link>
-</code>
+
+</code></pre>
 
 Os elementos *linkParam* e *bindParam* possuem um atributo adicional chamado *select*, este contém uma expressão XPath que será avaliada durante o processamento e seu valor colocado em *value*.
 
