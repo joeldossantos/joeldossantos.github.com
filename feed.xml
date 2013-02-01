@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
  <id>urn:iweb:29C7B1EE-AEA0-4EC5-8986-7D20C07B4F7A</id>
  <title>Page list Atom feed</title>
- <updated>2013-02-01T09:45:47-02:00</updated>
+ <updated>2013-02-01T11:12:11-02:00</updated>
  <link rel="self" href="feed.xml"/>
  <generator>iWeb</generator>
  <author>
@@ -14,7 +14,7 @@
   <title xmlns="urn:iweb:">Home</title>
   <in-navbar xmlns="urn:iweb:">0292C08E-F799-4BBE-AC38-D45C45E9418F</in-navbar>
   <link rel="alternate" href="Home.html"/>
-  <updated>2013-02-01T09:45:47.001-02:00</updated>
+  <updated>2013-02-01T11:12:11.001-02:00</updated>
   <content>Home</content>
  </entry>
  <entry>
@@ -23,7 +23,7 @@
   <title xmlns="urn:iweb:">XTemplate</title>
   <in-navbar xmlns="urn:iweb:">3C3522F8-5585-4014-8AD6-8DE68E98AA76</in-navbar>
   <link rel="alternate" href="XTemplate.html"/>
-  <updated>2013-02-01T09:45:47.002-02:00</updated>
+  <updated>2013-02-01T11:12:11.002-02:00</updated>
   <content>XTemplate</content>
  </entry>
  <entry>
@@ -32,7 +32,7 @@
   <title xmlns="urn:iweb:">CFP</title>
   <in-navbar xmlns="urn:iweb:">97C514C8-72E4-4BBF-86F8-D56E687194AA</in-navbar>
   <link rel="alternate" href="CFP.html"/>
-  <updated>2013-02-01T09:45:47.003-02:00</updated>
+  <updated>2013-02-01T11:12:11.003-02:00</updated>
   <content>CFP</content>
  </entry>
 </feed>
